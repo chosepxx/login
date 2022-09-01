@@ -57,7 +57,7 @@ function App() {
   // JSX code for login form
   const renderForm = (
     <>
-    <FormContainer>
+    <div>
     <div className="form">
       <form onSubmit={handleSubmit}>
         <div className="input-container">
@@ -75,7 +75,7 @@ function App() {
         </div>
       </form>
     </div>
-    </FormContainer>
+    </div>
     </>
   );
     return (
